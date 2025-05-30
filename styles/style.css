@@ -82,14 +82,14 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--title-color);
 }
-
+/* 
 .header__theme-menu-button_type_light {
 }
 .header__theme-menu-button_type_auto {
 }
 
 .header__theme-menu-button_type_dark {
-}
+} */
 
 .main__title {
   color: var(--main-title-color);
