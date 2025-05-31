@@ -5,12 +5,25 @@
 */
 
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --image-dark: url(../images/cover-image-dark.png);
+  --accent-color: #000028;
+  --subtitle-color: #000028;
+  --title-bg-color: #ff0070;
+  --title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --color-hover: #ff007066;
+  --main-title-color: #db00ff;
+  --decorated-element-visible: block;
 }
 
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --image-dark: url(../images/cover-image-dark.png);
+  --accent-color: #000028;
+  --subtitle-color: #000028;
+  --title-bg-color: #ff0070;
+  --title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --color-hover: #ff007066;
+  --main-title-color: #db00ff;
+  --decorated-element-visible: block;
 }
