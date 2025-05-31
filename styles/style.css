@@ -1,6 +1,5 @@
 .page {
   inline-size: 100%;
-  block-size: 100%;
   background-image: var(--image-dark);
   background-size: cover;
   background-position: bottom;
@@ -8,6 +7,7 @@
 }
 
 .header {
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   padding: 0 10px;
@@ -102,8 +102,7 @@
   background-color: var(--title-bg-color);
   color: var(--subtitle-color);
   font-weight: var(--font-weight);
-  min-inline-size: 355px;
-  max-inline-size: 491px;
+  inline-size: 350px;
   align-self: flex-start;
   line-height: 23.4px;
 }
@@ -118,11 +117,11 @@
   color: var(--title-color);
   font-size: var(--text-size);
   line-height: 23.4px;
-  margin-block-end: 20px;
+  margin-block-end: 18px;
 }
 
 .focus-text__container:not(:last-child) {
-  margin-block-end: 20px;
+  margin-block-end: 19px;
 }
 
 .focus-text__subtitle {
@@ -133,15 +132,16 @@
 }
 
 .focus-text__section {
-  margin-block-end: 50px;
+  margin-block-end: 47px;
 }
 
 .focus-text__subtitle-light {
   font-weight: 400;
+  margin-block-end: 13px;
 }
 
 .galery {
-  margin-block-end: 15px;
+  margin-block-end: 43px;
 }
 
 .galery__content {
@@ -171,7 +171,7 @@
 
 @media (width >= 768px) {
   .record {
-    right: 51px;
+    right: 48px;
     top: 21px;
   }
 
@@ -181,7 +181,7 @@
   }
 
   .decorated-zone::after {
-    bottom: 10px;
+    bottom: 20px;
     left: 20px;
   }
 
@@ -204,6 +204,7 @@
 
   .main {
     margin-block-start: 63px;
+    padding: 0 20px;
   }
 
   .focus-text__title {
@@ -217,10 +218,11 @@
   }
 
   .focus-text__section {
-    margin-block-end: 80px;
+    margin-block-end: 77px;
   }
 
   .galery__content {
+    margin-block-start: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -282,26 +284,30 @@
     top: -1%;
   }
 
+  .focus-text__section-grid {
+    gap: 10px;
+  }
+
   .focus-text__section-flex {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
   }
 
   .focus-text__title {
     min-width: 315px;
   }
 
-  .focus-text__container {
-    min-width: 315px;
-  }
-
   .focus-text__section:nth-child(2) {
-    margin-block-end: 97px;
+    margin-block-end: 79px;
   }
 
   .focus-text__subtitle-light {
-    margin-block-start: 20px;
+    margin-block-start: 13px;
+  }
+
+  .focus-text__subtitle {
+    margin-block-end: 11px;
   }
 
   .focus-text__container {
@@ -314,6 +320,6 @@
   }
 
   .footer {
-    margin-block-start: 53px;
+    margin-block-start: 62px;
   }
 }

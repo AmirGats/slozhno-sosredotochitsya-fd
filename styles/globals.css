@@ -15,8 +15,8 @@ body {
   max-inline-size: 1440px;
   margin: 0 auto;
   font-family: var(--font-fam), sans-serif;
-  font-size: var(--main-text-size);
-  background-color: var(--dark-blue);
+  font-size: var(--text-size);
+  background-color: var(--accent-color);
 }
 
 h1,
