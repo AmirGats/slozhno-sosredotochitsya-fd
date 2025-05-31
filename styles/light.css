@@ -16,18 +16,6 @@
   --decorated-element-visible: none;
 }
 
-.theme-light .page {
-  --image-dark: url(../images/cover-image-light.png);
-  --accent-color: #fff1f7;
-  --subtitle-color: #353430;
-  --title-bg-color: #ff8dcb;
-  --title-color: #353430;
-  --text-color: #353430;
-  --color-hover: #32312d66;
-  --main-title-color: #ffc2e6;
-  --decorated-element-visible: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --image-dark: url(../images/cover-image-light.png);
