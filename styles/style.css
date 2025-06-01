@@ -45,7 +45,7 @@
   display: var(--decorated-element-visible);
   position: absolute;
   color: var(--title-color);
-  right: 41px;
+  right: 38px;
   top: 11px;
 }
 
@@ -62,21 +62,21 @@
 }
 
 .header__theme-menu {
-  margin-block-start: 72px;
+  margin-block-start: 71px;
   justify-self: end;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .header__theme-menu-button {
   background-color: transparent;
   color: var(--title-color);
   text-transform: lowercase;
-  border: none;
+  border: 1px solid transparent;
   padding: 1.5px 13px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .header__subtitle {
-  margin-block-start: 54px;
+  margin-block-start: 55px;
   margin-block-end: 89px;
   background-color: var(--title-bg-color);
   color: var(--subtitle-color);
@@ -147,6 +147,7 @@
 }
 
 .galery {
+  margin-block-start: -3px;
   margin-block-end: 43px;
 }
 
@@ -191,17 +192,23 @@
     left: 20px;
   }
 
+  .header {
+    padding: 0;
+    padding-right: 10px;
+  }
+
   .header__subtitle {
     inline-size: 364px;
     justify-self: flex-end;
-    margin-block-start: 159px;
+    margin-block-start: 162px;
     margin-block-end: 202px;
     margin-right: 10px;
   }
 
   .header__theme-menu {
-    margin-block-start: 192px;
+    margin-block-start: 188px;
     margin-block-end: 173px;
+    padding-right: 9px;
   }
 
   .header__title {
@@ -228,7 +235,7 @@
   }
 
   .galery__content {
-    margin-block-start: 13px;
+    margin-block-start: 22px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -268,14 +275,20 @@
   .main__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
+  .header {
+    padding-right: 0;
+    padding: 0 10px;
+  }
+
   .header__title {
-    margin-block-start: 100px;
+    margin-block-start: 90px;
     margin-inline-start: -10px;
   }
 
   .header__subtitle {
-    margin-block-start: 111px;
-    margin-block-end: 130px;
+    margin-block-start: 103px;
+    margin-block-end: 126px;
     inline-size: 491px;
   }
 
@@ -286,7 +299,7 @@
   .header__theme-menu {
     margin-block-start: 20px;
     position: relative;
-    right: 38.5%;
+    right: 37.69%;
     top: -1%;
   }
 
@@ -297,7 +310,7 @@
   .focus-text__section-flex {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 20px;
   }
 
   .focus-text__title {
@@ -317,7 +330,7 @@
   }
 
   .focus-text__container {
-    min-inline-size: 320px;
+    min-inline-size: 315px;
     max-inline-size: 649px;
   }
 
