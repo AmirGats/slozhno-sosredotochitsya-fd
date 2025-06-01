@@ -113,42 +113,48 @@
   padding: 0 10px;
 }
 
+.focus-text__section-grid {
+  margin-block-end: 50px;
+}
+
+.focus-text__section-flex {
+  margin-block-end: 50px;
+}
+
 .focus-text__title {
   color: var(--title-color);
   font-size: var(--text-size);
   line-height: 23.4px;
-  margin-block-end: 18px;
 }
 
-.focus-text__container:not(:last-child) {
-  margin-block-end: 19px;
+.focus-text__container-title {
+  background-color: var(--title-bg-color);
+  color: var(--subtitle-color);
+  font-size: var(--main-text-size);
+  margin-block-end: 20px;
+}
+
+.mrg__title {
+  margin-block-end: 20px;
 }
 
 .focus-text__subtitle {
   background-color: var(--title-bg-color);
   color: var(--subtitle-color);
   font-size: var(--main-text-size);
+  margin-block-end: 10px;
+}
+
+.focus-text__container:not(:last-child) {
+  margin-block-end: 20px;
 }
 
 .focus-text__section {
   margin-block-end: 50px;
 }
 
-.subtitle-mrg-l {
-  margin-block-end: 10px;
-}
-
-.subtitle-mrg-xl {
-  margin-block-end: 20px;
-}
-
-.focus-text__subtitle-light {
+.subtitle-light {
   font-weight: 400;
-}
-
-.galery {
-  margin-block-start: -3px;
-  margin-block-end: 43px;
 }
 
 .galery__content {
@@ -230,7 +236,11 @@
     gap: 20px;
   }
 
-  .focus-text__section {
+  .focus-text__section-grid {
+    margin-block-end: 80px;
+  }
+  
+  .focus-text__section-flex {
     margin-block-end: 80px;
   }
 
@@ -307,7 +317,7 @@
     gap: 10px;
   }
 
-  .focus-text__section-flex {
+  .focus-text__flex-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -322,11 +332,11 @@
   }
 
   .focus-text__subtitle-light {
-    margin-block-start: 13px;
+    margin-block-start: 19px;
   }
 
   .focus-text__subtitle {
-    margin-block-end: 11px;
+    margin-block-end: 10px;
   }
 
   .focus-text__container {
@@ -334,7 +344,7 @@
     max-inline-size: 649px;
   }
 
-  .focus-text__item-grid {
+  .focus-text__grid-item {
     justify-self: end;
   }
 
