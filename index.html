@@ -18,7 +18,7 @@
       type="image/svg+xml"
     />
     <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -58,8 +58,8 @@
 
     <main class="main">
       <section class="focus-text">
-        <div class="focus-text__section-grid">
-          <h2 class="focus-text__title mrg__title">Почему сосредоточиться так сложно</h2>
+        <div class="focus-text__section focus-text__section-grid">
+          <h2 class="focus-text__title margin__title">Почему сосредоточиться так сложно</h2>
           <div class="focus-text__grid-item">
             <article class="focus-text__container">
               <h3 class="focus-text__subtitle focus-text__grid-subtitle">
@@ -94,10 +94,10 @@
           </div>
         </div>
 
-        <div class="focus-text__section-flex">
-          <h2 class="focus-text__title mrg__title">Что снижает концентрацию внимания?</h2>
+        <div class="focus-text__section">
+          <h2 class="focus-text__title margin__title">Что снижает концентрацию внимания?</h2>
           <div class="focus-text__flex-container">
-            <article class="focus-text__container">
+            <article class="focus-text__container-flex focus-text__container">
               <h3 class="focus-text__subtitle ">
                 Многозадачность
               </h3>
@@ -110,7 +110,7 @@
                 может не выдержать, если не давать ей отдохнуть.
               </p>
             </article>
-            <article class="focus-text__container">
+            <article class="focus-text__container-flex focus-text__container">
               <h3 class="focus-text__subtitle ">Еда</h3>
               <p class="focus-text__description">
                 «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -121,7 +121,7 @@
                 сонливость. И хотим ещё больше быстрых углеводов.
               </p>
             </article>
-            <article class="focus-text__container">
+            <article class="focus-text__container-flex focus-text__container">
               <h3 class="focus-text__subtitle ">Гаджеты</h3>
               <p class="focus-text__description">
                 Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -137,21 +137,21 @@
           </div>
         </div>
 
-        <div class="focus-text__section-grid">
-          <h2 class="focus-text__title mrg__title">
+        <div class="focus-text__section focus-text__section-grid">
+          <h2 class="focus-text__title margin__title">
             Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
             секунд)
           </h2>
           <div class="focus-text__grid-item">
-            <article class="focus-text__container ">
-              <h3 class="focus-text__container-title">
-                5 простых (на самом деле не очень) советов
-              </h3>
-              <h3
+            <h3 class="focus-text__container-title">
+              5 простых (на самом деле не очень) советов
+            </h3>
+            <article class="focus-text__container">
+              <h4
                 class="focus-text__subtitle subtitle-light "
               >
                 Представьте небо и облака
-              </h3>
+              </h4>
               <p class="focus-text__description">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая
                 помогает успокоиться. Ведь часто именно тревожные мысли о
@@ -164,11 +164,11 @@
               </p>
             </article>
             <article class="focus-text__container ">
-              <h3
+              <h4
                 class="focus-text__subtitle subtitle-light"
               >
                 Включите музыку
-              </h3>
+              </h4>
               <p class="focus-text__description">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -177,11 +177,11 @@
               </p>
             </article>
             <article class="focus-text__container ">
-              <h3
+              <h4
                 class="focus-text__subtitle subtitle-light"
               >
                 Прогуляйтесь
-              </h3>
+              </h4>
               <p class="focus-text__description">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 <a href="#" class="focus-link">показал</a>, что созерцание
@@ -193,11 +193,11 @@
               </p>
             </article>
             <article class="focus-text__container ">
-              <h3
+              <h4
                 class="focus-text__subtitle subtitle-light "
               >
                 Хорошо ешьте
-              </h3>
+              </h4>
               <p class="focus-text__description">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
@@ -207,11 +207,11 @@
               </p>
             </article>
             <article class="focus-text__container">
-              <h3
+              <h4
                 class="focus-text__subtitle subtitle-light"
               >
                 Читайте
-              </h3>
+              </h4>
               <p class="focus-text__description">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -223,9 +223,9 @@
         </div>
       </section>
       <section class="galery">
-        <h3 class="focus-text__subtitle ">
+        <h2 class="focus-text__subtitle ">
           А можно в картинках?
-        </h3>
+        </h2>
         <div class="galery__content">
           <img
             src="./images/sunset.png"
