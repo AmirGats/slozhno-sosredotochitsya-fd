@@ -333,7 +333,7 @@
   }
 
   .focus-text__container-flex {
-    inline-size: 314px;
+    flex-basis: calc(33.33% - 20px);
   }
 
   .focus-text__title {
